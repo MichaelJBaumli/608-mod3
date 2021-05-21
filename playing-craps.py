@@ -82,4 +82,6 @@ for x in range(12):
     x1 = x+1
     print(str(x1).rjust(4),end=' ')
     print(str(faces[x]).rjust(25))
+print(f"Craps: {(faces[1]+faces[2]+faces[11])/6000000}")
+print(f"Win: {(faces[6]+faces[10])/6000000}")
 
