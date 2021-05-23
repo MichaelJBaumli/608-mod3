@@ -32,9 +32,9 @@ tip = purchase.calculateTip(tipPercent)
 
 #Display some useful information
 
-print(f'Tax: {tax:0.2f}')
-print(f'Tip: {tip:0.2f}')
-print(f'Total: {purchase.calculateTotal(taxPercent,tipPercent):0.2f}')
+print(f'Tax: ${tax:0.2f}')
+print(f'Tip: ${tip:0.2f}')
+print(f'Total: ${purchase.calculateTotal(taxPercent,tipPercent):0.2f}')
 
 
 
