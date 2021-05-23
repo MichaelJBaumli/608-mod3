@@ -26,6 +26,6 @@ print(f'Pvarience is: {answer1:0.2f}')
 answer2 = statistics.pstdev(dataset)
 print(f'Pstandard deviation is: {answer2:0.2f}')
 
-answer3 = math.sqrt(statistics.pvariance(dataset))S
+answer3 = math.sqrt(statistics.pvariance(dataset))
 
 print(f'Square root of the pvariance is: {answer3:0.2f}')
